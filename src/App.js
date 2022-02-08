@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element = {<HomeScreen/>}/>
         <Route path="/gender" element = {<GenderScreen/>}/>
+        <Route path="/gender/:id" element = {<GenderScreen/>}/>
         <Route path="*" element = {<ErrorScreen/>}/>
       </Routes>
     </BrowserRouter>
